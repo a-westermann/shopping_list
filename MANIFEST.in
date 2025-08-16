@@ -1,0 +1,4 @@
+include README.md
+include requirements.txt
+recursive-include shopping_list/static *
+recursive-include shopping_list/templates * 

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ app_name }}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'shopping_list/css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ app_name }}</h1>
+        <p>{{ message }}</p>
+    </div>
+    
+    <script src="{% static 'shopping_list/js/script.js' %}"></script>
+</body>
+</html> 
